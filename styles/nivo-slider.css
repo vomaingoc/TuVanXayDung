@@ -63,7 +63,6 @@
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
- 
 	color: #000;
 	width: 96%;
 	margin: 2%;
@@ -146,7 +145,6 @@
 }
 .theme-default .nivo-controlNav a.active {
 	border: solid 1px #FCCA5B;
- 
 }
 .theme-default .nivo-directionNav a {
 	display: block;
@@ -159,8 +157,8 @@
 	-moz-transition: all 200ms ease-in-out;
 	-o-transition: all 200ms ease-in-out;
 	transition: all 200ms ease-in-out;
-	z-index:99999;
-	width:30px;
+	z-index: 99999;
+	width: 30px;
 }
 .theme-default:hover .nivo-directionNav a {
 	opacity: 1;
@@ -188,25 +186,40 @@
 .theme-default .nivo-controlNav.nivo-thumbs-enabled a {
 	width: auto;
 	height: auto;
-	background:#388d58;
+	background: #388d58;
 }
-.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+ .theme-default .nivo-controlNav.nivo-thumbs-enabled img {
 	display: block;
 	width: 120px;
 	height: auto;
-	background:#388d58;
+	background: #388d58;
 }
-.theme-default .nivo-controlNav a.active img{
-	opacity:0.3
+.theme-default .nivo-controlNav a.active img {
+	opacity: 0.3
 }
-.slider-wrapper {
+.slider-wrapper-detail {
+	position: relative;
+	margin-bottom:20px
+}
+#slider {
 	border: solid 1px #ccc;
 	position: relative;
 	margin: 0px 0;
-	border-radius:10px;
-	overflow:hidden;
-	margin-bottom:15px
+	border-radius: 10px;
+	overflow: hidden;
+}
+figure.slider .container {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 15px
 }
 
- 
- 
+
+@media (max-width:768px) {
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	width: 70px;
+}	
+}

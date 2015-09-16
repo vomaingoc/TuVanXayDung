@@ -88,6 +88,16 @@ $(function () {
  $(window).load(function() {
 	$('#slider').nivoSlider();
 });
+
+//slider nivo 2
+ $(window).load(function() {
+	$('#slider2').nivoSlider({	
+	 controlNavThumbs: true,
+        pauseOnHover: true,
+		controlNav: true,
+	});
+});
+ 
  //back top
   (function($){
 	$.fn.UItoTop = function(options) {
@@ -150,13 +160,6 @@ $(document).ready(function () {
   });
 }); 
 
-//slider nivo 2
- $(window).load(function() {
-	$('#slider2').nivoSlider({	
-	 controlNavThumbs: true,
-        pauseOnHover: true,
-		controlNav: true,
-	});
-});
+
 
  

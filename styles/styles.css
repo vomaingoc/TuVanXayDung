@@ -7,8 +7,6 @@
 @import"bxslider.css";
 @import"fonts.css";
 @import"nivo-slider.css";
-@import"fancybox.css";
-
 /*=======================*/
 body {
 	text-align: center;
@@ -25,32 +23,62 @@ body {
 header, .menu, .slider, .main, footer {
 	width: 100%;
 	text-align: center;
-	 
 }
-header .container, .slider .container, .main .container, footer .container {
+header .container, .main .container, footer .container {
 	text-align: left;
 	display: inline-block;
 }
 header .container {
 	position: relative;
 	padding: 15px 0px;
-	background:url(../images/bg_header.png) right top no-repeat; background-size: auto 100%
+	background: url(../images/bg_header.png) right top no-repeat;
+	background-size: auto 100%
 }
 .brand-name, .brand {
 	display: inline-block;
-	vertical-align:top
+	vertical-align: top
 }
 .brand img {
 	max-width: 150px;
-	margin-left:40px;
+	margin-left: 40px;
 }
 .brand-name img {
 	margin-left: 30px;
 	max-width: 550px;
 	max-width: 100%;
-	margin-top:20px;
+	margin-top: 20px;
 }
 header .container {
+}
+.hot-news {
+ 
+	position: absolute;
+	bottom:0px;
+	z-index: 9;
+	width: 100%;
+	left: 0;
+	display: inline-block;
+}
+.inner-sl {
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+	display: inline-block;
+	padding: 10px 10px;
+ 
+}
+.hot-news span {
+	text-transform: uppercase;
+	color: #fff;
+	 
+	font-size: 1.2em;
+	 
+	font-weight: 700; text-align:left;
+ 
+}
+.sl-news p{  text-align:left}
+.sl-news p a {
+	color: #fff;
+	font-weight: bold;
 }
 .tt-side {
 	background: #00918D;
@@ -60,10 +88,8 @@ header .container {
 	text-align: center;
 	padding: 8px 0;
 	color: #fff;
-/* -webkit-border-radius: 3px 3px 0 0;
-border-radius: 3px 3px 0 0;*/
-	background:url(../images/bg-navx.gif) repeat-x;
-	background:url(../images/bg_box_tab.png) repeat-x
+	background: url(../images/bg-navx.gif) repeat-x;
+	background: url(../images/bg_box_tab.png) repeat-x
 }
 .hotline {
 	position: absolute;
@@ -189,20 +215,22 @@ border-radius: 3px 3px 0 0;*/
 }
 .tt-main {
 	width: 100%;
-	margin:0 !important; padding:0; 
- 
+	margin: 0 !important;
+	padding: 0;
 	text-transform: uppercase;
-	position:absolute; top:-8px; left:10px;
-	 
+	position: absolute;
+	top: -8px;
+	left: 10px;
 }
 .tt-main span {
-	 
 	padding: 6px 10px 6px 30px;
 	color: #fff;
 	display: inline-block;
 	background-size: auto 100%;
-	font-weight:bold; font-size:1.1em;
-	background:url(../images/bg_box_tab_1.png) no-repeat; min-width:278px;
+	font-weight: bold;
+	font-size: 1.1em;
+	background: url(../images/bg_box_tab_1.png) no-repeat;
+	min-width: 278px;
 }
 /*===========================media*/ 
 .media {
@@ -225,21 +253,58 @@ border-radius: 3px 3px 0 0;*/
 .tt-media a {
 	color: #00743C
 }
-.tt-media a:hover{ color:#333}
-.list-media-left .media:not(:last-child){ border-bottom: dotted 1px #ccc}
-.list-media-left .photo-media img{ width:80px; margin-right: 10px;}
-.list-media-left .tt-media{ font-size:1em}
-.side-ct{ padding:5px; border: solid 1px #ccc; width:100%}
-.side>div{ margin-bottom:10px;}
+.tt-media a:hover {
+	color: #333
+}
+.list-media-left .media:not(:last-child) {
+	border-bottom: dotted 1px #ccc
+}
+.list-media-left .photo-media img {
+	width: 80px;
+	margin-right: 10px;
+}
+.list-media-left .tt-media {
+	font-size: 1em
+}
+.side-ct {
+	padding: 5px;
+	border: solid 1px #ccc;
+	width: 100%
+}
+.side>div {
+	margin-bottom: 10px;
+}
 /*===========================media*/
 /*project*/
-.list-project{ text-align:center}
-.project{ width:48%; background:url(../images/bg_des.png) center bottom no-repeat; background-size: 100% auto; padding:15px; padding-bottom:22px; display:inline-block}
-.tt-project{ background:#00743C; color:#00743C; text-align:center; text-transform:uppercase; font-size:1.1em; padding:7px;}
-.tt-project a{ color:#fff}
-.img-project img{ width:100%}
-.img-project{ background: #F6F6F6 
-; padding:10px; }
+.list-project {
+	text-align: center
+}
+.project {
+	width: 48%;
+	background: url(../images/bg_des.png) center bottom no-repeat;
+	background-size: 100% auto;
+	padding: 15px;
+	padding-bottom: 22px;
+	display: inline-block
+}
+.tt-project {
+	background: #00743C;
+	color: #00743C;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	padding: 7px;
+}
+.tt-project a {
+	color: #fff
+}
+.img-project img {
+	width: 100%
+}
+.img-project {
+	background: #F6F6F6;
+	padding: 10px;
+}
 /*================================detail-news*/
 .detail-news p {
 	margin: 5px 0;
@@ -247,19 +312,24 @@ border-radius: 3px 3px 0 0;*/
 .detail-news h1 {
 	color: rgb(0, 128, 128);
 	font-size: 1.5em;
-	font-weight:400;
+	font-weight: 400;
 }
 .iblock {
-	position:relative;
-	border:solid 1px #E2E2E2;
+	position: relative;
+	border: solid 1px #E2E2E2;
 	-webkit-border-radius: 5px 5px 5px 5px;
-border-radius: 5px 5px 5px 5px;
-padding:15px;
-padding-top:40px;
- 
-	margin-bottom:15px;
+	border-radius: 5px 5px 5px 5px;
+	padding: 15px;
+	padding-top: 40px;
+	margin-bottom: 15px;
 }
-.intro{ padding:15px; padding-top:0; font-size:13px; line-height:20px; text-align:justify;}
+.intro {
+	padding: 15px;
+	padding-top: 0;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: justify;
+}
 .main-content img {
 	max-width: 100%
 }
@@ -295,10 +365,11 @@ padding-top:40px;
 	float: left;
 	margin-top: 15px;
 	padding: 0 1%;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 }
-.otherNews  h3{
-	font-size:1.3em; font-weight:400;
+.otherNews h3 {
+	font-size: 1.3em;
+	font-weight: 400;
 }
 .otherNews ul {
 	list-style-image: url(../images/li_f.png);
@@ -308,10 +379,8 @@ padding-top:40px;
 }
 .otherNews ul li a {
 	text-decoration: none;
- 
 }
 .otherNews ul li a:hover {
-	 
 	text-decoration: underline
 }
 .otherNews ul li {
@@ -326,11 +395,10 @@ padding-top:40px;
  
 .footer div.container {
 	background: #00918D url(../images/bg-footer.gif);
- 
 	padding: 10px;
 	color: #fff;
 	margin-bottom: 1px;
-	position:relative
+	position: relative
 }
 .address {
 	font-style: normal;
@@ -340,11 +408,13 @@ padding-top:40px;
 	float: right;
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 20px; text-align:right
+	padding-left: 20px;
+	text-align: right
 }
 /*=============================================================social*/
 .social {
-	text-align: right; margin-top:5px;
+	text-align: right;
+	margin-top: 5px;
 }
 .social span {
 	display: inline-block;
@@ -353,12 +423,14 @@ padding-top:40px;
 	font-family: 'UTMCaviar';
 	font-size: 14px
 }
-.stt-visit .side-ct{
-	padding:20px;
-	background:url(../images/icon-truycap.gif) 20px center no-repeat ;
-	padding-left:80px
+.stt-visit .side-ct {
+	padding: 20px;
+	background: url(../images/icon-truycap.gif) 20px center no-repeat;
+	padding-left: 80px
 }
-.stt-line{ margin:5px 0}
+.stt-line {
+	margin: 5px 0
+}
 .tt-f {
 	font-family: 'UTMCaviar';
 	font-size: 14px;
@@ -368,7 +440,6 @@ padding-top:40px;
 	padding-bottom: 5px;
 }
 .stt-visit b {
-	 
 }
 .social a i {
 	border: solid 0px #fff;
@@ -384,12 +455,15 @@ padding-top:40px;
 }
 .social a i:hover {
 	background: #fff;
-	 
 }
 .social {
 	font-size: 22px;
 }
-.copyright{ position:absolute; bottom:10px; right:10px}
+.copyright {
+	position: absolute;
+	bottom: 10px;
+	right: 10px
+}
 /*===============================httt*/
 .httt phone {
 	color: #f00;
@@ -431,7 +505,7 @@ padding-top:40px;
 }
 .map {
 	width: 100%;
-	clear:both;
+	clear: both;
 	padding-top: 10px;
 }
 .form-ct input, .form-ct textarea {
@@ -531,7 +605,7 @@ padding-top:40px;
 	font-size: 12px;
 	font-style: italic;
 	border-right: solid 1px #146c00;
-	background:#fff
+	background: #fff
 }
 .btn-search {
 	padding: 6px 21px;
@@ -544,8 +618,18 @@ padding-top:40px;
 	color: #78E055
 }
 /*===============================end tim kiem*/
+
+.tt-dt-project {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.des-project {
+	font-size: 1.1em
+}
+
+
  @media (max-width:767px) {
-	 
 .search-icon {
 	display: block
 }
@@ -569,7 +653,6 @@ padding-top:40px;
 	position: relative;
 	text-align: left;
 	padding-left: 15px;
-	
 }
 .ads {
 	display: none
@@ -605,13 +688,25 @@ padding-top:40px;
 .form-ct .captcha {
 	margin-bottom: 10px;
 }
-.copyright{ position: relative; bottom:0px; right:0px; width:100; text-align:center; margin-top:10px;}
-.social{ text-align:center; margin-top:0;}
+.copyright {
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+	width: 100;
+	text-align: center;
+	margin-top: 10px;
+}
+.social {
+	text-align: center;
+	margin-top: 0;
+}
 }
 @media (max-width:500px) {
 .httt .inner {
 	padding-left: 0px;
 	padding-top: 90px;
 }
-.project{ width:100%}
+.project {
+	width: 100%
+}
 }
