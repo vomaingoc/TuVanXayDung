@@ -1,4 +1,3 @@
-
 $(function () {
     var pull = $('#pull');
     btnClose = $('#btnClose');
@@ -159,7 +158,3 @@ $(document).ready(function () {
 	  $('.popupSearch').slideUp('fast');
   });
 }); 
-
-
-
- 

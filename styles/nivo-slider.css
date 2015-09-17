@@ -188,7 +188,7 @@
 	height: auto;
 	background: #388d58;
 }
- .theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
 	display: block;
 	width: 120px;
 	height: auto;
@@ -199,7 +199,7 @@
 }
 .slider-wrapper-detail {
 	position: relative;
-	margin-bottom:20px
+	margin-bottom: 20px
 }
 #slider {
 	border: solid 1px #ccc;
@@ -214,12 +214,11 @@ figure.slider .container {
 	display: inline-block;
 	border-radius: 10px;
 	overflow: hidden;
-	margin-bottom: 15px
+	margin-bottom: 15px;
+	overflow: hidden;
 }
-
-
-@media (max-width:768px) {
+ @media (max-width:768px) {
 .theme-default .nivo-controlNav.nivo-thumbs-enabled img {
 	width: 70px;
-}	
+}
 }
