@@ -202,23 +202,23 @@
 	margin-bottom: 20px
 }
 #slider {
-	border: solid 1px #ccc;
+	border: solid 0px #ccc;
 	position: relative;
 	margin: 0px 0;
-	border-radius: 10px;
+	border-radius: 10px; 
 	overflow: hidden;
 }
+.slider .container{ }
+figure.slider{ display:inline-block; background:#fff   }
 figure.slider .container {
 	position: relative;
 	text-align: center;
 	display: inline-block;
-	border-radius: 10px;
-	overflow: hidden;
-	margin-bottom: 15px;
-	overflow: hidden;
+	margin-bottom:15px
+ 
 }
- @media (max-width:768px) {
+/* @media (max-width:768px) {
 .theme-default .nivo-controlNav.nivo-thumbs-enabled img {
 	width: 70px;
 }
-}
+}*/

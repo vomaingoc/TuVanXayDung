@@ -7,11 +7,13 @@
 <script type="text/javascript" src="scripts/jquery.min.1.11.2.js"></script>
 </head>
 <body>
-<div class="page"> 
+ <div class="ads-scroll left_pmt" id="divAdLeft" ><img src="data/adsstr.jpg" /></div>
+<div class="ads-scroll right_pmt" id="divAdRight" ><img src="data/adsstr.jpg" /> </div>
+
   <!---================HEADER===================-->
   <header class="header" role="banner">
-    <div class="container"> <span class="brand"><a href="index.html"><img src="data/logo.jpg" /></a></span>
-      <figure class="brand-name"> <img src="data/banner.png" /> </figure>
+    <div class="container"> <span class="brand"><a href="index.htm"><img src="data/logo-3.png" /></a></span>
+      <figure class="brand-name"> <img src="data/banner.gif" /> </figure>
     </div>
   </header>
   
@@ -20,26 +22,36 @@
     <div class="container">
       <div class="navx"> <a href="#" id="pull" class="clearfix"><i class="openIco fa fa-align-justify"></i> <i class="closeIco fa fa-remove"></i></a>
         <ul>
-          <li class="active"><a href="index.html">Trang chủ</a> </li>
-          <li><a href="detailnews.html">Giới thiệu</a> </li>
-          <li><a href="news.html">Dịch vụ</a>
+          <li class="active"><a href="index.htm">Trang chủ</a> </li>
+          <li><a href="detailnews.htm">Giới thiệu</a> </li>
+          <li><a href="#">Ngành nghề</a>
             <ul>
-              <li><a href="#">Nullam quis risus</a>
-                <ul>
-                  <li><a href="#">Nullam quis risus</a> </li>
-                  <li><a href="#">Nullam quis risus</a> </li>
-                  <li><a href="#">Nullam quis risus</a> </li>
-                </ul>
-              </li>
-              <li><a href="#">Nullam quis risus</a> </li>
-              <li><a href="#">Nullam quis risus</a> </li>
+              <li><a href="#">Thi công nền móng</a> </li>
+              <li><a href="#">Tư vấn quản lý Dự án </a> </li>
+              <li><a href="#">Thi công nhà công nghiệp</a> </li>
             </ul>
           </li>
-          <li><a href="project.html">Dự án</a> </li>
-          <li><a href="detailnews.html">Thi công xây dựng</a></li>
-          <li><a href="detailnews.html">Bảng báo giá</a> </li>
-          <li><a href="news.html">Tin tức</a> </li>
-          <li><a href="contact.html">Liên Hệ</a> </li>
+          <li><a href="#">Năng lực</a>
+            <ul>
+              <li><a href="#">Thiết bị</a> </li>
+              <li><a href="#">Nhân sự</a> </li>
+            </ul>
+          </li>
+          <li><a href="project.htm">Dự án</a>
+            <ul>
+              <li><a href="#">Dự án đang triển khai</a> </li>
+              <li><a href="#">Tin nội bộ</a> </li>
+            </ul>
+          </li>
+          <li><a href="#">Thư viện tài liệu</a>
+            <ul>
+              <li><a href="#">Quy trình kỹ thuật</a> </li>
+              <li><a href="#">Quy trình ISO 9001 : 2008</a> </li>
+              <li><a href="#">Download Brochure</a></li>
+            </ul>
+          </li>
+          <li><a href="news.htm">Tin tức</a> </li>
+          <li><a href="contact.htm">Liên Hệ</a> </li>
         </ul>
         <div class="search">
           <div class="trigger"><i class="fa fa-search"></i></div>
@@ -48,16 +60,17 @@
             <a class="btn-search" >TÌM</a> <a class="btn-close"><i class="fa fa-close"></i></a> </div>
         </div>
       </div>
+      
     </div>
   </nav>
-  
+  <div class="page">
   <!---================MAIN===================-->
   <main class="main" role="main">
     <div class="container">
       <nav class="breadcrumb">
         <ul>
-          <li><a href="/trang-chu.html">Trang chủ</a></li>
-          <li><a href="/san-pham.html">Liên hệ</a></li>
+          <li><a href="/trang-chu.htm">Trang chủ</a></li>
+          <li><a href="/san-pham.htm">Liên hệ</a></li>
         </ul>
       </nav>
       
@@ -79,11 +92,12 @@
             </form>
             <address class="address-ct">
             <!--begin--> 
-            PHÒNG KINH DOANH VÀ DỊCH VỤ VIỄN THÔNG INTERNET VIETTEL<br />
-            Trụ sở giao dịch : số 2 ngõ 280 Đường Hồ Tùng Mậu, Từ Liêm, Hà Nội<br />
-            Hotline   :  0966.57.1900 <br />
-            E - Mail   :  Support@lapmangviettel.vn<br />
-            Website :  www.lapmangviettel.vn 
+             <address class="address">
+      <b>CÔNG TY TNHH TƯ VẤN XÂY DỰNG VÀ THƯƠNG MẠI MINH ANH PHÁT</b><br />
+      79 Lê Liễu, Phường Tân Quý, Quận Tân phú, Thành phố Hồ Chí Minh<br />
+      MST   :  0313427329 <br />
+      E - Mail   :  Support@gmail.com<br />
+      Website :  www.xaydungminhanhphat.com<br /><br /><br />
             <!--end-->
             </address>
             <map class="map">
@@ -94,8 +108,8 @@
         </div>
       </section>
       <!--end main content--> 
-      <aside class="side side-left">
-        <div class="httt">
+      <aside class="side side-left"> 
+        <!--<div class="httt">
           <h2 class="tt-side">Hỗ trợ trực tuyến</h2>
           <div class="inner">
             <p class="hl">
@@ -108,87 +122,70 @@
             </p>
             <p class="email"> <b> </b></p>
           </div>
+        </div>-->
+        <div class="video">
+          <h2 class="tt-side">Video</h2>
+          <div class="side-ct"><a><img src="data/video.jpg" /> </a></div>
         </div>
-        <div class="list-media-left">
-          <h2 class="tt-side">Dịch vụ</h2>
+        <div class="  project-s">
+          <h2 class="tt-side">CÔNG TRÌNH TIÊU BIỂU</h2>
           <div class="side-ct">
-            <article class="media">
-              <figure class="photo-media"><a href="detailnews.html"><img src="data/i5.jpg" /></a></figure>
-              <div class="text-media">
-                <h2 class="tt-media"> <a>Tư vấn thiết kế kiến trúc</a></h2>
-                <p>Nguyên nhân chính của phát sinh trong xây dựng là do chủ nhà không…</p>
-              </div>
+            <article>
+              <figure ><a href="detailnews.htm"><img src="data/o1.jpg" /></a></figure>
+              <h2 class="tt-project-s"> <a>Dự án nhà máy đạm Phú Mỹ</a></h2>
             </article>
             <!--End article-->
-            
-            <article class="media">
-              <figure class="photo-media"><a href="detailnews.html"><img src="data/i5.jpg" /></a></figure>
-              <div class="text-media">
-                <h2 class="tt-media"> <a>Tư vấn thiết kế kiến trúc</a></h2>
-                <p>Nguyên nhân chính của phát sinh trong xây dựng là do chủ nhà không…</p>
-              </div>
-            </article>
-            <!--End article-->
-            
-            <article class="media">
-              <figure class="photo-media"><a href="detailnews.html"><img src="data/i5.jpg" /></a></figure>
-              <div class="text-media">
-                <h2 class="tt-media"> <a>Tư vấn thiết kế kiến trúc</a></h2>
-                <p>Nguyên nhân chính của phát sinh trong xây dựng là do chủ nhà không…</p>
-              </div>
-            </article>
-            <!--End article-->
-            
-            <article class="media">
-              <figure class="photo-media"><a href="detailnews.html"><img src="data/i5.jpg" /></a></figure>
-              <div class="text-media">
-                <h2 class="tt-media"> <a>Tư vấn thiết kế kiến trúc</a></h2>
-                <p>Nguyên nhân chính của phát sinh trong xây dựng là do chủ nhà không…</p>
-              </div>
+            <article>
+              <figure ><a href="detailnews.htm"><img src="data/o2.jpg" /></a></figure>
+              <h2 class="tt-project-s"> <a>Dự án nhà máy Xi măng Hà Tiên</a></h2>
             </article>
             <!--End article--> 
-          </div>
-        </div>
-        <div class="list-media-left">
-          <h2 class="tt-side">TIÊU CHUẨN XÂY DỰNG</h2>
-          <div class="side-ct">
-            <article class="media">
-              <figure class="photo-media"><a href="detailnews.html"><img src="data/i5.jpg" /></a></figure>
-              <div class="text-media">
-                <h2 class="tt-media"> <a>Tư vấn thiết kế kiến trúc</a></h2>
-                <p>Nguyên nhân chính của phát sinh trong xây dựng là do chủ nhà không…</p>
-              </div>
-            </article>
-            <!--End article-->
             
-            <article class="media">
-              <figure class="photo-media"><a href="detailnews.html"><img src="data/i5.jpg" /></a></figure>
-              <div class="text-media">
-                <h2 class="tt-media"> <a>Tư vấn thiết kế kiến trúc</a></h2>
-                <p>Nguyên nhân chính của phát sinh trong xây dựng là do chủ nhà không…</p>
-              </div>
-            </article>
-            <!--End article-->
-            
-            <article class="media">
-              <figure class="photo-media"><a href="detailnews.html"><img src="data/i5.jpg" /></a></figure>
-              <div class="text-media">
-                <h2 class="tt-media"> <a>Tư vấn thiết kế kiến trúc</a></h2>
-                <p>Nguyên nhân chính của phát sinh trong xây dựng là do chủ nhà không…</p>
-              </div>
-            </article>
-            <!--End article-->
-            
-            <article class="media">
-              <figure class="photo-media"><a href="detailnews.html"><img src="data/i5.jpg" /></a></figure>
-              <div class="text-media">
-                <h2 class="tt-media"> <a>Tư vấn thiết kế kiến trúc</a></h2>
-                <p>Nguyên nhân chính của phát sinh trong xây dựng là do chủ nhà không…</p>
-              </div>
+            <article>
+              <figure ><a href="detailnews.htm"><img src="data/o3.jpg" /></a></figure>
+              <h2 class="tt-project-s"> <a>Dự án nhà máy nhiệt điện Ô môn</a></h2>
             </article>
             <!--End article--> 
+           
           </div>
         </div>
+        <div class="list-partner">
+          <h2 class="tt-side">Đối tác</h2>
+          <div class="side-ct"> 
+            <script type="text/javascript">
+			$(document).ready(function(){
+			$('.sl-p').bxSlider({
+				minSlides: 3,
+				maxSlides: 3,
+				moveSlides: 0,
+				slideMargin: 5,
+				speed:6000,
+				auto: true,
+				mode: 'vertical',
+				tickerHover: true,
+				controls:false,
+				pause:0,
+				});
+		});
+   		</script>
+            <div class="sl-p">
+              <p><a><img src="data/p1.png" /></a></p>
+              <p><a><img src="data/p2.jpg" /></a></p>
+              <p><a><img src="data/p3.jpg" /></a></p>
+              <p><a><img src="data/p4.jpg" /></a></p>
+            </div>
+          </div>
+        </div>
+        <!--<div class="tblock linkweb">
+          <h2 class="tt-side">Liên kết website</h2>
+          <div class="side-ct">
+            <p>
+              <select class="slt">
+                <option>---- Liên kết ---</option>
+              </select>
+            </p>
+          </div>
+        </div>-->
         <div class="tblock  stt-visit">
           <h2 class="tt-side">THỐNG KÊ TRUY CẬP</h2>
           <div class="side-ct">
@@ -201,6 +198,7 @@
       <!--end side-->
     </div>
   </main>
+  </div>
   <!---================FOOTER===================-->
   <footer class="footer" role="contentinfo">
     <div class="container">
@@ -217,7 +215,7 @@
       </div>
     </div>
   </footer>
-</div>
+ 
 <!---===============javascript==================--> 
 <script type="text/javascript" src="scripts/bxslider.js"></script> 
 <script type="text/javascript" src="scripts/js.js"></script> 

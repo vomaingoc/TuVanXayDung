@@ -1,0 +1,201 @@
+@charset "utf-8";
+/*===========import============*/
+@import"css.css";
+@import "animate.css";
+@import"font-awesome.min.css";
+/*=========== css ============*/
+.intro-page{ background:rgba(0,0,0,0.3);margin-top: 5%; padding-bottom:70px; padding-top:70px; border-radius:0;}
+body {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d213a+0,080b10+100 */
+	background: rgb(13,33,58); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(13,33,58,1) 0%, rgba(8,11,16,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(13,33,58,1)), color-stop(100%, rgba(8,11,16,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(13,33,58,1) 0%, rgba(8,11,16,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(13,33,58,1) 0%, rgba(8,11,16,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(13,33,58,1) 0%, rgba(8,11,16,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(13,33,58,1) 0%, rgba(8,11,16,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d213a', endColorstr='#080b10', GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	min-height: 800px;
+}
+.intro-page {
+	min-height: 800px;
+	width: 100%;
+}
+.header {
+	text-align: center;
+ 
+}
+.brand img {
+	max-height: 150px;
+}
+.brand, .brand-name, .certificate {
+	display: inline-block
+}
+.brand-name {
+	PADDING: 0 30px;
+}
+.certificate img {
+	max-height: 120px;
+}
+.header h1 {
+	font-size: 26px;
+	color: #FFF;
+	letter-spacing: -1PX;
+	word-spacing: -2px;
+	line-height: 40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold
+}
+.header span {
+	color: #A8CF43
+}
+.header h1:hover span{ color:#F7C513}
+.main {
+	background: url(../images/bg-1.png) center no-repeat;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	padding-top: 7%;
+	margin-top: 0px;
+	width: 100%;
+	display: inline-block;
+	float: left
+}
+.vi-box, .en-box {
+	display: inline-block;
+	width: 40%;
+}
+.vi-box {
+	float: left;
+}
+.en-box {
+	float: right
+}
+.btn-lang {
+	padding: 10px 20px;
+	background: url(../images/btn.png) no-repeat;
+	background-size: 100% 100%;
+	color: #000;
+	font-weight: 700;
+	text-align: center
+}
+.btn-lang:hover {
+	color: #00458F;
+	background-image: url(../images/btn-2.png);
+}
+nav {
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 50px;
+	font-style: italic
+}
+nav a {
+	color: #fff;
+}
+nav a:hover {
+	cursor: default;
+	color: #F9D307
+}
+nav p {
+	margin: 10px 0;
+}
+.vi-box nav {
+	float: right;
+	text-align: right;
+	width: 100%;
+	padding-right: 70px
+}
+.en-box nav {
+	float: left;
+	text-align: left;
+	width: 100%;
+	padding-left: 70px
+}
+.vi-box nav p:nth-child(2) {
+	padding-right: 6%
+}
+.vi-box nav p:nth-child(3) {
+	padding-right: 14%;
+}
+.vi-box nav p:nth-child(4) {
+	padding-right: 11%;
+}
+.vi-box nav p:nth-child(5) {
+	padding-right: 3%;
+}
+.en-box nav p:nth-child(2) {
+	padding-left: 6%;
+}
+.en-box nav p:nth-child(3) {
+	padding-left: 14%;
+}
+.en-box nav p:nth-child(4) {
+	padding-left: 11%;
+}
+.en-box nav p:nth-child(5) {
+	padding-left: 3%;
+}
+footer {
+	text-align: center;
+	font-size: 3em;
+	color: #fff;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif
+}
+.main {
+	min-height: 519px
+}
+footer:hover{ color:#A4C920}
+/* @media (min-width:900px) {
+.main {
+	min-height: 519px
+}
+}*/
+ /*@media (min-width:480px) and (max-width:800px) {
+.main {
+	min-height: 319px
+}
+.brand img {
+	max-height: 80px;
+}
+.brand-name {
+	PADDING: 0 10px;
+}
+.certificate img {
+	max-height: 80px;
+}
+.main {
+	background-size: 60% auto
+}
+.header h1 {
+	font-size: 15px;
+	line-height: normal;
+}
+nav {
+	font-size: 16px;
+	margin-top: 50px;
+}
+}
+ @media (max-width:480px) {
+.header h1 {
+	font-size: 12px;
+	line-height: normal;
+}
+.brand img {
+	max-height: 40px;
+}
+.brand-name {
+	PADDING: 0 10px;
+}
+.certificate img {
+	max-height: 40px;
+}
+nav {
+	font-size: 12px;
+	margin-top: 50px;
+}
+.main {
+	background-size: 60% auto
+}
+}*/
+

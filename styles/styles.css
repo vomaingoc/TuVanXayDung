@@ -11,19 +11,21 @@
 body {
 	text-align: center;
 	background: url(../images/bg.png);
+ 
 }
 .page {
 	display: inline-block;
 	text-align: left;
 	background: #fff;
-	-webkit-box-shadow: 0 0 10px 0 #4A4A4A;
-	box-shadow: 0 0 10px 0 #4A4A4A;
+	/*-webkit-box-shadow: 0 0 10px 0 #4A4A4A;
+	box-shadow: 0 0 10px 0 #4A4A4A;*/
 	padding: 0 10px;
+	 
 }
 .mq {
 	margin: 7px 0;
 	font-weight: bold;
-	color: #00743C
+	color: #00743C; background:#fff;
 }
 header, .menu, .slider, .main, footer {
 	width: 100%;
@@ -33,6 +35,7 @@ header .container, .main .container, footer .container {
 	text-align: left;
 	display: inline-block;
 }
+header{ background:#fff}
 header .container {
 	position: relative;
 	padding: 15px 0px;
@@ -49,8 +52,8 @@ header .container {
 }
 .brand-name img {
 	margin-left: 30px;
-	max-width: 550px;
-	max-width: 100%;
+	max-width: 750px;
+ 
 	margin-top: 20px;
 }
 header .container {
@@ -329,8 +332,8 @@ header .container {
 .intro {
 	padding: 15px;
 	padding-top: 0;
-	font-size: 13px;
-	line-height: 20px;
+	font-size: 1.18em;
+	line-height: 160%;
 	text-align: justify;
 }
 .detail-news img {
@@ -394,14 +397,17 @@ header .container {
 	padding-left: 3px;
 }
 /*================================footer*/
+ .page{ position:relative; z-index:2}
  
- 
-.footer div.container {
+.footer /*div.container*/ {
 	background: #00918D url(../images/bg-footer.gif);
 	padding: 10px;
 	color: #fff;
 	margin-bottom: 1px;
-	position: relative
+	position: relative;
+/*	-webkit-box-shadow: 0 -3px 3px 0px rgba(0,0,0,0.5);
+box-shadow: 0 -3px 3px 0px rgba(0,0,0,0.5);*/
+z-index:1;
 }
 .address {
 	font-style: normal;
@@ -427,9 +433,9 @@ header .container {
 	font-size: 14px
 }
 .stt-visit .side-ct {
-	padding: 20px;
-	background: url(../images/icon-truycap.gif) 20px center no-repeat;
-	padding-left: 80px
+	padding: 10px;
+	background: url(../images/icon-truycap.gif) 10px center no-repeat;
+	padding-left: 60px
 }
 .stt-line {
 	margin: 5px 0
@@ -457,7 +463,7 @@ header .container {
 	margin-top: 5px
 }
 .social a i:hover {
-	background: #fff;
+	background: #FACC0B;
 }
 .social {
 	font-size: 22px;
@@ -568,7 +574,7 @@ header .container {
 .search {
 	position: absolute;
 	top: 12px;
-	right: 26px;
+	right: 10px;
 }
 .trigger {
 	width: 30px;
@@ -603,7 +609,7 @@ header .container {
 	border: 0;
 	height: 26px;
 	float: left;
-	width: 213px;
+	width: 210px;
 	text-indent: 10px;
 	font-size: 12px;
 	font-style: italic;
@@ -630,7 +636,7 @@ header .container {
 .des-project {
 	font-size: 1.1em
 }
- @media (max-width:767px) {
+ /*@media (max-widtdfh:767px) {
 .search-icon {
 	display: block
 }
@@ -701,8 +707,8 @@ header .container {
 	text-align: center;
 	margin-top: 0;
 }
-}
-@media (max-width:500px) {
+}*/
+/*@media (max-width:500px) {
 .httt .inner {
 	padding-left: 0px;
 	padding-top: 90px;
@@ -711,3 +717,16 @@ header .container {
 	width: 100%
 }
 }
+*/
+.list-partner .side-ct{ height:400px; text-align:center}
+.list-partner .side-ct p{ text-align:center}
+.list-partner .side-ct p a{ display:inline-block}
+.inner-s{ border: solid 1px #ccc; margin:0; padding:5px}
+.side img{ max-width:100%}
+
+.list-partner p  img{ max-height:120px; margin-left:auto; margin-right:auto; }
+.tt-project-s{ font-size:14px; margin:5px; text-align:center; text-transform:uppercase}
+
+.img-project img{ width:318px; height:218px}
+
+.ads-scroll{DISPLAY:none;POSITION:absolute;TOP:0px;}

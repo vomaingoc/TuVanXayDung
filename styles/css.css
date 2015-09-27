@@ -30,12 +30,15 @@ ul, menu, dir {
 }
 html {
 	font-size: 10px;
-	-webkit-tap-highlight-color: rgba(0,0,0,0)
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	min-width:1000px
 }
 body {
 	font: normal 13px/1.4 Arial, Helvetica, sans-serif;
 	line-height: 1.42857143;
 	color: #333;
+	font-family:Tahoma, Geneva, sans-serif;
+	min-width:1000px
 }
 button, input, select, textarea {
 	font-family: inherit;
@@ -63,6 +66,7 @@ a:focus {
 	padding-left: 0px;
 	margin-right: auto;
 	margin-left: auto;
+	width:1050px !important
 }
 @media (min-width:768px) and (max-width:991px) {
 .hidden-sm {
@@ -948,7 +952,7 @@ textarea {
 	float: right;
  
 }
-@media (max-width:768px) {
+/*@media (max-width:768px) {
 .side {
 	width: 100%;
 	padding: 5px;
@@ -971,3 +975,6 @@ textarea {
 	color:#00743C
 }
 }
+*/
+red{ color:red}
+black{ color:#000}
